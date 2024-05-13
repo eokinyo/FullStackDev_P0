@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My test page</title>
+    <link href="../CSS_basics/styles.css" rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Open+Sans">
+</head>
+<body>
+    <h1>1. My main title</h1>
+    <img src="images/firefox-icon.jpg" alt="My test image" />
+    <!-- 4 heading levels-->
+    
+    <h2>2. My top level heading</h2>
+    <h3>3. My subheading</h3>
+    <h4>4. My sub-subheading</h4>
+
+    <!--Paragraphs-->
+    <p>This is a random paragraph</p>
+
+    <!--Lists-->
+    <p>We can have unordered lists like:</p>
+    <ul>
+        <li>list1</li>
+        <li>List 2</li>
+        <li>3 list 3</li>
+    </ul>
+    <p>This just shows some random list</p>
+
+    <!--Links-->
+    <p>I want to provide a link to the word <a href="https://en.wikipedia.org/wiki/Teacher">Teacher</a></p>
+
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" value="by default, this element is filled with this text" id="name" name="user_name"/>
+            </li>
+            <li>
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="user_email"/>
+            </li>
+            <li>
+                <label for="msg">Message</label>
+                <textarea id="msg" name="user_message">
+                By default, this element is filled with this text.
+                </textarea>
+            </li>
+            <li class="button">
+                <button type="submit">Send your message</button>                
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
